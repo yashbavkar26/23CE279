@@ -14,6 +14,7 @@ void main()
 	printf("\n %d << 2 = %d", a, a << 2);
 	printf("\n %d >> 2 = %d", a, a >> 2);
 	printf("\n %d << 2 = %d", b, b << 2);
+	printf("\n %d >> 2 = %d", b, b >> 2);
 
 	_getch();
 	
