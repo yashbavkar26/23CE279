@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="bitwise.cpp">
+    <ClCompile Include="tableofnumber.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
