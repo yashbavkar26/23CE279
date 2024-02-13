@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="tableofnumber.cpp">
+    <ClCompile Include="calculator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
