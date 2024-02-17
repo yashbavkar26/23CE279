@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="pattern.cpp">
+    <ClCompile Include="primenumbers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
