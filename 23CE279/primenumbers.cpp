@@ -3,31 +3,32 @@
 
 void main()
 {
-	int count, i, num = 1;
-
-	while (num <= 100)
+	int count, i ,j,n;
+	printf("enter n:");
+	scanf_s("%d", &n);
+	printf("The prime numbers are:");
+	i = 1;
+	while(i<=n)
 	{
 		count = 0;
-		i = 2;
-		while (i <= num / 2)
+		j = 1;
+		while(j<=i)
 		{
-			if (num % i == 0)
+			if (i % j == 0)
 			{
-				count++;
-				break;
+				count += 1;
 			}
-
-			i++;
-
+			j += 1;
 		}
 
-		if (count == 0 && num != 1)
+		if (count == 2)
 		{
-			printf("%d ", num);
+			printf(" %d", i);
 		}
-
-		num++;
+		i += 1;
 	}
+	
+
 
 	_getch();
 

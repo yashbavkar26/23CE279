@@ -1,24 +1,25 @@
 #include<stdio.h>
 #include<conio.h>
 
-void main()
+int main()
 {
-	int i, j, k, m = 0;
+	int i, j, k;
 
-	for (i = 10; i >= 1; i--)
+	for (i = 0; i <10; i++)
 	{
-		for (j = 1; j <= i; j++)
+		for (j = 1; j <= (2* ((10 - i) - 1)); j++)
 		{
 			printf(" ");
 		}
 
-		for (k = 1; k <= m; k++)
+		for (k = 0; k <= i; k++)
 		{
-			printf("*");
+			printf(" *");
 		}
+
 		printf("\n");
-		m++;
 	}
 	_getch();
+	return 0;
 
 }
