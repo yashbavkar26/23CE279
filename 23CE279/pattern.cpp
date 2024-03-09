@@ -5,9 +5,9 @@ int main()
 {
 	int i, j, k;
 
-	for (i = 0; i <10; i++)
+	for (i = 0; i <9; i++)
 	{
-		for (j = 1; j <= (2* ((10 - i) - 1)); j++)
+		for (j = 0; j <= (2* ((9- i) - 1)); j++)
 		{
 			printf(" ");
 		}
