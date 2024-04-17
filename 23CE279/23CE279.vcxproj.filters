@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="pointerswap.cpp">
+    <ClCompile Include="pointereverse.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
