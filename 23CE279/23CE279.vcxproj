@@ -19,12 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="arrays.cpp" />
-    <ClCompile Include="pointereverse.cpp" />
-    <ClCompile Include="pointersum.cpp" />
-    <ClCompile Include="strings2.cpp" />
-    <ClCompile Include="strings3.cpp" />
-    <ClCompile Include="strings4.cpp" />
+    <ClCompile Include="structures.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
