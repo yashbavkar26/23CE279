@@ -1,0 +1,30 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+	int a[10],i, n, key, pos = -1;
+	printf("Enter the number of elements:");
+	scanf("%d", &n);
+	printf("Enter elements :" );
+	for (i = 0;i < n;i++)
+	{
+		scanf("%d", &a[i]);
+	}
+	printf("Enter the element to be found:");
+	scanf("%d", &key);
+
+	for (i = 0;i < n;i++)
+	{
+		if (key == a[i])
+			pos = i;
+	}
+
+	if (pos != -1)
+		printf("Element found at %d", pos);
+	else
+		printf("Element not found");
+
+	_getch();
+}
