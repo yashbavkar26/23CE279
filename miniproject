@@ -1,0 +1,41 @@
+#include<iostream>
+#include<conio.h>
+#include<string>
+using namespace std;
+
+class customer
+{
+protected:
+	long int customerID, phnumber;
+	string name, address;
+
+public: 
+	void get_cst_info()
+	{
+		cout << "Enter name:";
+		cin >> name;
+		cout << "enter customer ID and phone number";
+		cin >> customerID >> phnumber;
+		cout << "Enter your address:";
+		cin >> address;
+	}
+	void display_cst_info()
+	{
+		cout << "name:" << name << endl;
+		cout << "customer ID:" << customerID << endl;
+		cout << "address:" << address << endl;
+	}
+};
+class cars
+{
+protected:
+	int total_cars,remaining_cars;
+
+
+public:
+	void display_available_cars()
+	{
+		cout << "Available number of cars" << remaining_cars;
+		
+	}
+};
